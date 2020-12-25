@@ -1,0 +1,12 @@
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#particles-js {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
