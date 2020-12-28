@@ -1,25 +1,48 @@
-.content{
-    top: 50%;
-    bottom: 50%;
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  color: blueviolet;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+.desc {
+  padding: 60px 0px;
+}
+.desc h1 {
+  padding: 20px;
 }
 
-.fab{
-    font-size: 40px;
-    padding: 20px 0px;
+.media_area h2 {
+  padding: 10px 0px;
 }
 
-.fa-facebook-square{
-    color: rgb(81, 81, 255);
+p {
+  font-size: 20px;
+  color: brown;
+  font-weight: bold;
+}
+.fab {
+  font-size: 40px;
+  padding: 20px 0px;
+}
+.fa-facebook-square {
+  color: rgb(81, 81, 255);
 }
 
-.fa-twitter{
-    color: skyblue;
+.fa-twitter {
+  color: skyblue;
 }
 
-.fa-instagram{
-    color: rgb(223, 78, 223);
+.fa-instagram {
+  color: rgb(223, 78, 223);
 }
 
-.fa-linkedin{
-    color: rgba(25, 25, 192, 0.726);
+.fa-linkedin {
+  color: rgb(96, 164, 190);
 }
