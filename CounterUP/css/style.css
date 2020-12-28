@@ -1,0 +1,25 @@
+.content{
+    top: 50%;
+    bottom: 50%;
+}
+
+.fab{
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.fa-facebook-square{
+    color: rgb(81, 81, 255);
+}
+
+.fa-twitter{
+    color: skyblue;
+}
+
+.fa-instagram{
+    color: rgb(223, 78, 223);
+}
+
+.fa-linkedin{
+    color: rgba(25, 25, 192, 0.726);
+}
