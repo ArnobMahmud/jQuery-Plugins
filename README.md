@@ -244,3 +244,238 @@ $('.owl-carousel').owlCarousel({
     }
 })
 ```
+<h3> (v) Particles Plugin </h3>
+
+**1. Link `bootstrap.css` file via cdn.js.**
+``` html
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+```
+**2. Create a Id named `particles-js`.**
+``` html
+    <!-- Slider -->
+    <section class="banner">
+        <div id="particles-js"></div>
+    </section>
+    <!-- Slider -->
+```
+**3. Link Bootstrap Bundle JS.**
+``` html
+    <!-- Option 1: Bootstrap Bundle JS cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+```
+**4. Link jQuery Library via cdn.**
+``` html
+    <!-- jQuery Library cdn  -->
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+```
+**5. Link `particles.min.js` file.**
+``` html
+    <!-- Particles JS -->
+    <script src="js/particles.min.js"></script>
+```
+**6. Link `app.js` file.**
+``` html
+    <!-- App  JS -->
+    <script src="js/app.js"></script>
+```
+**7. Link `custom.js` file.**
+``` html
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+```
+<h3> (vi) Slick Plugin </h3>
+
+**1. Link `bootstrap.css` file via cdn.js.**
+``` html
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+```
+**2. Link `slick.css` file.**
+``` html
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+```
+**3. Link `slick-theme.css` file.**
+``` html
+    <!-- Slick Theme CSS -->
+    <link rel="stylesheet" href="css/slick-theme.css">
+``` 
+**4. Create a class named `gallery` which will be controlled by the jQuery function.**
+``` html
+<div class="gallery_box">
+```
+**5. Link Bootstrap Bundle JS.**
+``` html
+    <!-- Option 1: Bootstrap Bundle JS cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+```
+**6. Link jQuery Library via cdn.**
+``` html
+    <!-- jQuery Library cdn  -->
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+```
+**7. Link `slick.min.js` file.**
+``` html
+    <!-- Slick JS -->
+    <script src="js/slick.min.js"></script>
+```
+**8. Link `custom.js` file.**
+``` html
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+```
+**9. Customize `custom.js` file based on your project.**
+```js
+$(document).ready(function () {
+  $(".gallery").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+  });
+});
+```
+<h3> (vii) Typed Plugin </h3>
+
+**1. Link `bootstrap.css` file via cdn.js.**
+``` html
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+```
+**2. Declare a class inside `<span>` element.**
+``` html
+    <!-- Slider -->
+    <div class="container">
+        <h1>
+            I'm <span class="text"></span>
+        </h1>
+    </div>
+```
+**3. Link Bootstrap Bundle JS.**
+``` html
+    <!-- Option 1: Bootstrap Bundle JS cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+```
+**4. Link jQuery Library via cdn.**
+``` html
+    <!-- jQuery Library cdn  -->
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+```
+**5. Link `typed.min.js` file.**
+``` html
+    <!-- Typed JS  -->
+    <script src="js/typed.min.js"></script>
+```
+**6. Link `typed.min.js` file via cdn.js.**
+``` html
+    <!-- Typed cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+```
+**7. Link `custom.js` file.**
+``` html
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+```
+**8. Customize the `custom.js` file based on your project.**
+``` js
+var typed = new Typed(".text", {
+  /**
+   * @property {array} strings strings to be typed
+   * @property {string} stringsElement ID of element containing string children
+   */
+  strings: [
+    "Arnob Mahmud.",
+    "a Front-end Developer.",
+    "an Android + iOS Developer.",
+    "Freelancer.",
+  ],
+  stringsElement: null,
+
+  /**
+   * @property {number} typeSpeed type speed in milliseconds
+   */
+  typeSpeed: 50,
+
+  /**
+   * @property {number} startDelay time before typing starts in milliseconds
+   */
+  startDelay: 0,
+
+  /**
+   * @property {number} backSpeed backspacing speed in milliseconds
+   */
+  backSpeed: 50,
+
+  /**
+   * @property {boolean} smartBackspace only backspace what doesn't match the previous string
+   */
+  smartBackspace: true,
+
+  /**
+   * @property {boolean} shuffle shuffle the strings
+   */
+  shuffle: false,
+
+  /**
+   * @property {number} backDelay time before backspacing in milliseconds
+   */
+  backDelay: 700,
+
+  /**
+   * @property {boolean} fadeOut Fade out instead of backspace
+   * @property {string} fadeOutClass css class for fade animation
+   * @property {boolean} fadeOutDelay Fade out delay in milliseconds
+   */
+  fadeOut: false,
+  fadeOutClass: "typed-fade-out",
+  fadeOutDelay: 500,
+
+  /**
+   * @property {boolean} loop loop strings
+   * @property {number} loopCount amount of loops
+   */
+  loop: true,
+  loopCount: Infinity,
+
+  /**
+   * @property {boolean} showCursor show cursor
+   * @property {string} cursorChar character for cursor
+   * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
+   */
+  showCursor: true,
+  cursorChar: "|",
+  autoInsertCss: true,
+
+  /**
+   * @property {string} attr attribute for typing
+   * Ex: input placeholder, value, or just HTML text
+   */
+  attr: null,
+
+  /**
+   * @property {boolean} bindInputFocusEvents bind to focus and blur if el is text input
+   */
+  bindInputFocusEvents: false,
+
+  /**
+   * @property {string} contentType 'html' or 'null' for plaintext
+   */
+  contentType: "html",
+});
+```
