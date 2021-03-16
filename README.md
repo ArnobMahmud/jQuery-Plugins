@@ -2,6 +2,25 @@
 
 <b>Project based most useable jQuery Plugins structure implement in work directory files.</b>
 
+[![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor)](https://github.com/ArnobMahmud/jQuery-Plugins/blob/master/LICENSE)&nbsp;
+[![develop-with-arnob](https://img.shields.io/badge/Develop%20with-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=ffb3ad)](https://github.com/ArnobMahmud/)&nbsp;
+[![made-with-jQ](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg?style=plastic&logo=JavaScript&color=e1d1eb&logoColor=faed3e&labelColor=471e61)](https://jquery.com/)
+
+![code](https://user-images.githubusercontent.com/60808266/111291028-f2a08f80-8670-11eb-9903-d68b8113263c.png)
+
+### **Implemented Plugins 👍🏻**
+- **AOS**
+- **CounterUp**
+- **LightBox**
+- **Owl Carousel**
+- **Particles**
+- **Slick**
+- **Typed**
+
+**Author : Arnob Mahmud**
+
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?style=plastic&logo=home-assistant)](https://m.me/arnob.mahmud.am/) &nbsp;&nbsp;
+
 <h3> (i) AOS Plugin </h3>
 
 **1. Link `bootstrap.css` file via cdn.**
@@ -306,7 +325,7 @@ $('.owl-carousel').owlCarousel({
     <!-- Slick Theme CSS -->
     <link rel="stylesheet" href="css/slick-theme.css">
 ``` 
-**4. Create a class named `gallery` which will be controlled by the jQuery function.**
+**4. Create a class named exm :`gallery` which will be controlled by the jQuery function.**
 ``` html
 <div class="gallery_box">
 ```
